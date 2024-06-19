@@ -59,4 +59,4 @@ jobs:
           app-name: 'nextgithubactions'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8BC5A254CC9E4A75AF33E73F988F9EAB }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
